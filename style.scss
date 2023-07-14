@@ -13,12 +13,18 @@ header {
 }
 ul {
   padding: 25px;
+  list-style: none;
+  display: flex;
+  align-items: center;
   li.logo {
     font-size: 18px;
     font-weight: 700;
   }
-  li.icon {
+  li img.icon {
     width: 25px;
+  }
+  li.align-right {
+    margin-left: auto;
   }
 }
 h1 {
