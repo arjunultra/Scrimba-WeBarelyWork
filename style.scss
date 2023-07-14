@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.5rem;
+  font-family: Montserrat, sans-serif;
+}
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+ul {
+  padding: 25px;
+  li.logo {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  li.icon {
+    width: 25px;
+  }
+}
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+div.caption {
+  margin: 0 25px;
+}
